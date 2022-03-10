@@ -58,6 +58,27 @@ export class InicioPage implements OnInit {
       redirecTO: '/check'
 
     },
+
+    {
+      icon: 'calendar-outline',
+      name: 'dateTime',
+      redirecTO: '/date-time'
+
+    },
+
+    {
+      icon: 'car-outline',
+      name: 'Fab',
+      redirecTO: '/fab'
+
+    },
+
+    {
+      icon: 'grid-outline',
+      name: 'Grid',
+      redirecTO: '/grid'
+
+    },
   ];
   constructor() { }
 
