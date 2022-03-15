@@ -79,6 +79,13 @@ export class InicioPage implements OnInit {
       redirecTO: '/grid'
 
     },
+
+    {
+      icon: 'infinite-outline',
+      name: 'Infinite scroll',
+      redirecTO: '/infinite'
+
+    },
   ];
   constructor() { }
 
